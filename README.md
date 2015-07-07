@@ -12,7 +12,7 @@ node debug note
 
 - Friendly debug node in chrome
 
-### DEMO
+## DEMO
 
 ```js
 node server.js
@@ -27,6 +27,10 @@ node debugger.js `pid`
 ```
 
 Refresh the browser, you may see content has changed
+
+----
+
+## About node debug
 
 ### How to enter debug mode
 
