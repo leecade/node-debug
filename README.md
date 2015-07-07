@@ -94,6 +94,8 @@ client.req(msg, function (err, body, res) {})
 
 ### Ref
 
+https://github.com/buggerjs/bugger-v8-client/blob/master/PROTOCOL.md
+
 https://github.com/joyent/node/blob/master/lib/_debugger.js
 
 https://github.com/oneapm/node-oneapm-debugger
