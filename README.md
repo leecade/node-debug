@@ -14,19 +14,23 @@ node debug note
 
 ## DEMO
 
-```js
-node server.js
-```
+1. run a example server
 
-> Visit http://localhost:8001 to see the message
+  ```js
+  node example/server.js
+  ```
 
-record the `pid`, then
+  > Visit http://localhost:8001 to see the message
 
-```js
-node debugger.js `pid`
-```
+  record the `pid`, then
 
-Refresh the browser, you may see content has changed
+2. enter debug mode and connect by the `pid`
+
+  ```js
+  node example/debugger.js `pid`
+  ```
+  
+ Refresh the browser, you may see content has changed
 
 ----
 
